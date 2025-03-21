@@ -414,12 +414,12 @@ export default function Home() {
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                className="w-full self-center rounded-xl bg-white/90 flex items-center justify-center backdrop-blur-md p-8 shadow-[0_20px_60px_-10px_rgba(72,202,228,0.3)] border border-white/40"
+                className="w-full rounded-xl bg-white/90 backdrop-blur-md p-8 shadow-[0_20px_60px_-10px_rgba(72,202,228,0.3)] border border-white/40"
               >
                 {showScore ? (
                   <motion.div
                     variants={containerVariants}
-                    className="flex flex-col w-full items-center gap-6 text-center"
+                    className="flex flex-col items-center gap-6 text-center"
                   >
                     <motion.div
                       className="relative w-24 h-24 mb-2"
